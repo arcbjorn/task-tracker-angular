@@ -6,7 +6,7 @@ import { ITask } from 'src/app/types';
 
 const httpOptions = {
   headers: new HttpHeaders({
-    'Content-Type': 'applcation/json',
+    'Content-Type': 'application/json',
   }),
 };
 
