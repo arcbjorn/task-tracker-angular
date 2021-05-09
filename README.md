@@ -3,7 +3,11 @@
 ### Development
 
 ```bash
-ng serve
+# start front-end
+yarn start
+
+# start json-server
+yarn server
 ```
 
 Navigate to `http://localhost:4200/`.
@@ -12,7 +16,7 @@ Hot-reload is enabled in `src/` folder.
 ### Code scaffolding
 
 ```bash
-ng generate component <component-name>
+yarn ng generate component <component-name>
 ```
 
 You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
@@ -20,7 +24,7 @@ You can also use `ng generate directive|pipe|service|class|guard|interface|enum|
 ### Build
 
 ```bash
-ng build
+yarn build
 ```
 
 The build artifacts will be stored in the `dist/` directory.
@@ -29,7 +33,7 @@ Use the `--prod` flag for a production build.
 ### Unit tests
 
 ```bash
-ng test:unit
+yarn test:unit
 ```
 
 Using [Karma](https://karma-runner.github.io)
@@ -37,7 +41,7 @@ Using [Karma](https://karma-runner.github.io)
 ### End-to-end tests
 
 ```bash
-ng test:e2e
+yarn test:e2e
 ```
 
 Using [Protractor](http://www.protractortest.org/)
